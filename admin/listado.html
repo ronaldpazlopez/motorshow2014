@@ -1,0 +1,56 @@
+<html manifest="cache.manifest">
+
+<head>
+	<title>Motorshow Listado</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/cordova.js"></script>
+	<script type="text/javascript" charset="utf-8">
+		var uuid_device = 0;
+		
+		/* */
+		document.addEventListener("deviceready", onDeviceReady, false);
+
+		function onDeviceReady() {
+			uuid_device = device.uuid;
+		}
+		
+	</script>
+</head>
+
+<body>
+ 
+  <h2>Motorshow </h2>
+  <img src="../img/m-logo.png" alt="For go Further" width="150px">
+  
+  <a href="login.html" style="float:right;margin-top:-35px;margin-right: 20px" rel="external">Cerrar Sesi&oacute;n</a>
+
+  <div id="results" style="height:415px;overflow: scroll;"></div>
+
+	<!--
+	  <a href="#" onClick="ctrlSincronizar();">Sincronizar BD Online</a><br/>
+	  <a href="#" onClick="dropTable();">Borrar BD Online</a> 
+	-->
+
+	<div class="form-actions">
+		<button type="button" class="btn btn-primary" onClick="ctrlSincronizar()">Sincronizar BD Online</button>
+		<button type="button" class="btn btn-danger" onClick="dropTable()">Borrar BD Online</button>
+	</div> 
+	 
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/model.js"></script>
+
+	<script type="text/javascript">
+		iniciar_bd();
+		
+		showRecords();
+	</script>
+  
+</body>
+</html>
