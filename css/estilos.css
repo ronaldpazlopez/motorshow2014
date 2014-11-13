@@ -1,7 +1,6 @@
 @font-face {
 	font-family: 'Conv_FordAntennaCondWGL-Bold';
-	src: url('../fonts/FordAntennaCondWGL-Bold.eot');
-	src: url('../fonts/FordAntennaCondWGL-Bold.woff') format('woff'),
+	src: url('../fonts/FordAntennaCondWGL-Bold.eot');,
 		 url('../fonts/FordAntennaCondWGL-Bold.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
@@ -9,17 +8,15 @@
 
 @font-face {
 	font-family: 'Conv_FordAntennaCondWGL-Light';
-	src: url('../fonts/FordAntennaCondWGL-Light.eot');
-	src: url('../fonts/FordAntennaCondWGL-Light.woff') format('woff'),
-		 url('../fonts/FordAntennaCondWGL-Light.ttf') format('truetype');
+	src: url('../fonts/FordAntennaCondWGL-Light.eot');,
+	     url('../fonts/FordAntennaCondWGL-Light.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Conv_FordAntennaCondWGL-Reg';
-	src: url('../fonts/FordAntennaCondWGL-Reg.eot');
-	src: url('../fonts/FordAntennaCondWGL-Reg.woff') format('woff'),
+	src: url('../fonts/FordAntennaCondWGL-Reg.eot');,
 		 url('../fonts/FordAntennaCondWGL-Reg.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
@@ -27,8 +24,7 @@
 
 @font-face {
 	font-family: 'Conv_FordAntennaWGL-Black';
-	src: url('../fonts/FordAntennaWGL-Black.eot');
-	src: url('../fonts/FordAntennaWGL-Black.woff') format('woff'),
+	src: url('../fonts/FordAntennaWGL-Black.eot');,
 		 url('../fonts/FordAntennaWGL-Black.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
