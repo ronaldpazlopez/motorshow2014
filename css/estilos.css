@@ -343,8 +343,10 @@ body {
 	font-family: "Conv_FordAntennaCondWGL-Reg";
 	font-size: 12px;
 	color: #fff;
+	margin-top:12px;
 	background:url(../img/m_bg2.jpg) no-repeat center top;
 	background-size: 100% 100%;
+	background-position: 0 17px; 
 }
 
 .main-menu {
@@ -791,6 +793,7 @@ h1.logo_page {
 	font-size: 15px;
 }
 
+/*
 @media (max-width: 2048px) {
 	.right_page ul.ui-listview {
 		height: 534px;
@@ -830,4 +833,4 @@ h1.logo_page {
 	#focus-sedan .right_page .right_page-in {
 		padding-top: 121px;
 	}
-}
+}*/
