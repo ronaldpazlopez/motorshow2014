@@ -1,17 +1,22 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    id        = "com.motorshow2014"
-    version   = "1.0.0">
-
-<name>motorshows</name>
-
-<description>
-ford
-</description>
-
-<author href="https://www.creacore.pe" email="ronald@creacore.pe">
-Your Name
-</author>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<widget id="com.motorshow2014" version="3.7.0" xmlns="http://www.w3.org/ns/widgets">
+    <name>Motorshow Formulario</name>
+	<platform name="ios">
+              <icon src="img/m-logo.png" width="76" height="76" />
+              <icon src="img/m-logo.png" width="152" height="152" />
+    </platform>
+	
+	<gap:platform name="ios" />
+	<preference name="fullscreen" value="false" />
+	<preference name="target-device" value="universal" />
+	<preference name="prerendered-icon" value="true" />
+	<preference name="ios-statusbarstyle" value="black-opaque" />
+	<preference name="detect-data-types" value="false" />
+	<preference name="exit-on-suspend" value="false" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="stay-in-webview" value="false" />
+	<preference name="show-splash-screen-spinner" value="false" />
+	<preference name="auto-hide-splash-screen" value="true" />
+	
+	<access origin="*" />
 </widget>
