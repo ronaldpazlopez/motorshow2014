@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget id="com.motorshow2014" version="3.7.0" xmlns="http://www.w3.org/ns/widgets">
+<widget id="com.motorshow2014" version="1.0.0" xmlns="http://www.w3.org/ns/widgets">
     <name>Motorshow Formulario</name>
-	<platform name="ios">
-              <icon src="img/m-logo.png" width="76" height="76" />
-              <icon src="img/m-logo.png" width="152" height="152" />
-    </platform>
+	<description>Evento Motorshow 2014 Perú</description>
+	
+	<icon src="img/m-logo.png" gap:platform="ios" width="152" height="152" />
 	
 	<gap:platform name="ios" />
+	
 	<preference name="fullscreen" value="false" />
 	<preference name="target-device" value="universal" />
 	<preference name="prerendered-icon" value="true" />
@@ -17,6 +17,8 @@
 	<preference name="stay-in-webview" value="false" />
 	<preference name="show-splash-screen-spinner" value="false" />
 	<preference name="auto-hide-splash-screen" value="true" />
+	
+	<preference name="orientation" value="landscape" />
 	
 	<access origin="*" />
 </widget>
