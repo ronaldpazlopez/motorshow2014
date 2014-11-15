@@ -224,7 +224,7 @@ function ajaxRecords(transaction, results) {
 			
 		$.ajax({
 			type: "POST",
-			url: "http://motorshow.retoneutrogena.com/index.php/motorshow/phonegap_registrados",
+			url: "http://motorshow.creacore.pe/index.php/motorshow/phonegap_registrados",
 			data: {"alias":"app_phonegap",uuid:uuid_device,data: arr_data},
 			crossDomain : true,
 			success: function(data){

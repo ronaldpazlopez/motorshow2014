@@ -17,8 +17,8 @@
 	<preference name="stay-in-webview" value="false" />
 	<preference name="show-splash-screen-spinner" value="false" />
 	<preference name="auto-hide-splash-screen" value="true" />
-	
+	<preference name="EnableViewportScale" value="true" />
 	<preference name="orientation" value="landscape" />
 	
-	<access origin="*" />
+	<access origin="*" subdomains="true" />
 </widget>
