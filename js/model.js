@@ -86,6 +86,22 @@ function insertRecord() {
         function (transaction) {
             transaction.executeSql(sql, [fecha, nombre, apellido, celular, email, modelo], showRecordsAndResetForm, handleErrors);
             console.debug('executeSql: ' + sql);
+			
+			$.ajax({
+				type: "POST",
+				url: "http://motorshow.creacore.pe/index.php/motorshow/enviar_correo",
+				data: {"alias":"app_phonegap_correo","nombre":nombre, "apellido":apellido,"modelo":modelo,"email":email},
+				crossDomain : true,
+				success: function(data){
+					alert("Correo enviado.");
+					
+				}, error: function(data) { // 500 Status Header
+				
+					alert("Error al enviar correo.");
+				}
+			
+			});
+			
         }
     );
 }
@@ -131,7 +147,7 @@ function showRecordsAndResetForm(transaction, results) {
 
     resetForm();
 	
-	alert("Usuario registrado.");
+	//alert("Usuario registrado.");
 
 }
 
