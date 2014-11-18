@@ -505,7 +505,7 @@ h1 {
 }
 
 .right_page ul.ui-listview {
-		height: 494px;
+		height: 482px;
 		overflow: auto;
 		
 }
@@ -707,10 +707,12 @@ input.right-input{
 	background:url(../img/m-btn-return.png) no-repeat left top;
 	width: 56px;
 	height: 53px;
+	margin-top:20px;
 }
 
 .wc_registrate .btn_return {
 	margin: 15px 0 0 0;
+	
 }
 
 .wc-return { overflow: hidden; padding-top: 15px; }
@@ -719,7 +721,7 @@ input.right-input{
 .view_more_next {
 	margin-right: 10px;
 	width: 122px;
-
+   
 	position: absolute;
 	bottom: 0;
 	right: 0;
