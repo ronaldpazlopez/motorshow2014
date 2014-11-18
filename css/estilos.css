@@ -507,6 +507,7 @@ h1 {
 .right_page ul.ui-listview {
 		height: 494px;
 		overflow: auto;
+		
 }
 
 .right_page ul.ui-listview li:first-child {
