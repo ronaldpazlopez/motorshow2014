@@ -11,13 +11,26 @@
 
 @font-face {
 	font-family: 'Conv_antenna-light';
-	src: url('../fonts/antenna-light.eot');
-	src: url('../fonts/antenna-light.woff') format('woff'),
-		 url('../fonts/antenna-light.ttf') format('truetype'),
-		 url('../fonts/antenna-light.svg') format('svg');
+	src: url('../fonts/antenna-regular.eot');
+	src: url('../fonts/antenna-regular.woff') format('woff'),
+		 url('../fonts/antenna-regular.ttf') format('truetype'),
+		 url('../fonts/antenna-regular.svg') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
+
+
+/*no tocar formulario*/
+@font-face {
+	font-family: 'Conv_antenna-medium';
+	src: url('../fonts/antenna-medium.eot');
+	src: url('../fonts/antenna-medium.woff') format('woff'),
+		 url('../fonts/antenna-medium.ttf') format('truetype'),
+		 url('../fonts/antenna-medium.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 /*
@@ -505,6 +518,7 @@ h1 {
 .subtitle_page {
 	font-size: 45px;
 	font-family: 'Conv_antenna-light';
+    font-weight: bold;
 	
 	text-transform: uppercase;
 	margin-bottom: 13px;
@@ -602,6 +616,7 @@ h1 {
 	text-transform: uppercase;
 	margin-top: 110px;
 	padding-bottom: 0;
+	font-family: 'Conv_antenna-medium';
 }
 
 .ui-header .title_form span {
